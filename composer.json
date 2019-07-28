@@ -1,0 +1,30 @@
+{
+	"name": "kitlabs/kit-soar-bundle",
+	"type": "symfony-bundle",
+	"description": "Symfony XiaoMi/soar (SQL Optimizer And Rewriter) Bundle",
+	"keywords": ["soar bundle","soar","SQL Optimizer And Rewriter", "SQL Profiler"],
+	"homepage": "https://github.com/kitlabs-cn/KitSoarBundle",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "lcp0578",
+			"email": "lcp0578@gmail.com",
+			"homepage": "https://github.com/lcp0578"
+		},
+		{
+			"name": "The contributors",
+			"homepage": "https://github.com/kitlabs-cn/KitSoarBundle/contributors"
+		}
+	],
+	"support": {
+		"email": "lcp0578@gmail.com"
+	},
+	"require": {
+		"symfony/web-profiler-bundle": "~3.4"
+	},
+	"autoload": {
+		 "psr-4": {
+            		"Kit\\SoarBundle\\": ""
+        	}
+	}
+}

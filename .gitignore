@@ -1,0 +1,6 @@
+## zend studio
+/.settings
+/.buildpath
+/.project
+## OSX
+.DS_Store
